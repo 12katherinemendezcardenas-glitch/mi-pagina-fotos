@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Colección de Imágenes</title>
+    <!-- Tailwind CSS para un estilo simple y moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos personalizados para centrar y estilizar la página */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            background-color: #f0f4f8;
+        }
+    </style>
+</head>
+<body class="bg-amber-50 p-8 font-sans">
+
+    <!-- Contenedor principal de la imagen -->
+    <div class="flex flex-col md:flex-row gap-8 items-center justify-center p-6 max-w-4xl mx-auto">
+        
+        <!-- Contenedor para la primera imagen -->
+        <div class="bg-orange-50 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-105">
+            <!-- Título de la primera imagen -->
+            <h1 class="text-3xl font-bold text-amber-800 text-center mb-4">¡Aquí está mi primera imagen!</h1>
+            <p class="text-amber-700 text-center mb-6">Nike</p>
+            
+            <!-- Etiqueta de imagen para la primera foto -->
+            <div class="rounded-lg overflow-hidden border-2 border-orange-200">
+                <img 
+                    src="Subtítulo (1).jpg" 
+                    alt="Una imagen relacionada con Nike, con un leopardo, zapatillas, y jugadores de voleibol y baloncesto." 
+                    class="w-full h-auto"
+                >
+            </div>
+        </div>
+
+        <!-- Contenedor para la segunda imagen -->
+        <div class="bg-orange-50 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-105">
+            <!-- Título de la segunda imagen -->
+            <h1 class="text-3xl font-bold text-amber-800 text-center mb-4">¡Aquí está mi segunda imagen!</h1>
+            <p class="text-amber-700 text-center mb-6">Soy Katherine</p>
+            
+            <!-- Etiqueta de imagen para la segunda foto -->
+            <div class="rounded-lg overflow-hidden border-2 border-orange-200">
+                <img 
+                    src="Subtítulo.jpg" 
+                    alt="Una imagen relacionada con Katherine, con varios collages y personajes animados." 
+                    class="w-full h-auto"
+                >
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
